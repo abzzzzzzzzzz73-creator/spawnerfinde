@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerfinder",
+  "version": "1.1.0",
+  "name": "Spawner Finder",
+  "description": "Запоминает спавнеры, меню выбора моба, метки и подсветка вагонеток.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.spawnerfinder.SpawnerFinderClient"]
+  },
+  "mixins": ["spawnerfinder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
